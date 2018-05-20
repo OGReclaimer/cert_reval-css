@@ -1,0 +1,16 @@
+.header {
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--line);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__logo {
+        margin-left: 2.5rem;
+        height: 5rem;
+        width: auto;
+    }
+
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Certify &mdash; Make Certificates Yo</title>
+    </head>
+    <body>
+        <!-- Dashboard - PAGE -->
+        <div class="dashboard">
+            <!-- Dashboard Component -->
+            <div class="dashboard__container">
+                <!-- Header Component -->
+                <header class="header">
+                    <img src="assets/img/logo.png" class="header__logo"/>
+                    
+                    <nav class="user-nav">
+                        <div class="user-nav__icon-box">
+                            <svg class="user-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-bell"></use>
+                            </svg>
+                            <!-- ADD NOTIFICATION ABILITY -->
+                            <span class="user-nav__notification">13</span>
+                        </div>
+
+                        <!-- ADD FUNCTIONALITY TO GRAB USER DATA -->
+                        <div class="user-nav__user">
+                            <img src="assets/img/user.png" alt="User Display Photo" class="user-nav__user-photo">
+                            <span class="user-nav__user-name">Joe</span>
+                            <svg class="user-nav__icon-dropdown">
+                                <use xlink:href="assets/img/sprite.svg#icon-chevron-down"></use>
+                            </svg>
+                        </div>
+                    </nav>
+                    
+                </header>
+
+                <!-- Dashboard Content -->
+                <div class="content">
+                    <!-- Side Navigation -->
+                    <nav class="sidebar">
+                        <ul class="side-nav"> 
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="#">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-archive"></use>
+                                    </svg>
+                                    <span>Certificates</span>
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="#">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-classic-computer"></use>
+                                    </svg>
+                                    <span>Sea Time Calculator</span>
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="#">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-hair-cross"></use>
+                                    </svg>
+                                    <span>Tracker</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Content of Dashboard - Components will go inside (table, widgets etc)  -->
+                    <main class="dashboard__view">
+                        <section class="widget-board">
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    56 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    To Next Expiry
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    130 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    Onboard Seabourn Quest
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    $3000
+                                </div>
+                                <div class="widget__sub-text">
+                                    For An Api?
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    56 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    To Next Expiry
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    130 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    Onboard Seabourn Quest
+                                </div>
+                            </div>
+                        </section>
+                        <section class="certificate-table">
+                            <table class="cert-table">
+                                <thead>
+                                    <tr class="cert-table__header">
+                                        <th></th>
+                                        <th>No:</th>
+                                        <th>Name:</th>
+                                        <th>Issuer:</th>
+                                        <th>Issue Date</th>
+                                        <th>Expiry Date</th>
+                                        <th>Days to expiry</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="cert">
+                                        <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                        <td>020138</td>
+                                        <td>First Aid</td>
+                                        <td>Auckland Martime School</td>
+                                        <td>26 Mar 2016</td>
+                                        <td>2 Aug 2018</td>
+                                        <td>
+                                            <div class="progress-bar">
+                                                <div class="progress-bar__text">
+                                                    <div class="progress-bar__text--days">
+                                                        50 Days
+                                                    </div>
+                                                    <div class="progress-bar__text--dates">
+                                                        11 Jun 2015 - 11 Jun 2020
+                                                    </div>
+                                                </div>
+                                                <div class="progress-bar__bar">
+                                                    <div class="progress-bar__bar--value" style="width: 97%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><button>Edit</button><button>Delete</button></td>
+                                    </tr>
+                                    <tr class="cert">
+                                        <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                        <td>020138</td>
+                                        <td>First Aid</td>
+                                        <td>Auckland Martime School</td>
+                                        <td>26 Mar 2016</td>
+                                        <td>2 Aug 2018</td>
+                                        <td>
+                                            <div class="progress-bar">
+                                                <div class="progress-bar__text">
+                                                    <div class="progress-bar__text--days">
+                                                        50 Days
+                                                    </div>
+                                                    <div class="progress-bar__text--dates">
+                                                        11 Jun 2015 - 11 Jun 2020
+                                                    </div>
+                                                </div>
+                                                <div class="progress-bar__bar">
+                                                    <div class="progress-bar__bar--value" style="width: 97%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><button>Edit</button><button>Delete</button></td>
+                                    </tr>
+                                    <tr class="cert">
+                                        <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                        <td>020138</td>
+                                        <td>First Aid</td>
+                                        <td>Auckland Martime School</td>
+                                        <td>26 Mar 2016</td>
+                                        <td>2 Aug 2018</td>
+                                        <td>
+                                            <div class="progress-bar">
+                                                <div class="progress-bar__text">
+                                                    <div class="progress-bar__text--days">
+                                                        50 Days
+                                                    </div>
+                                                    <div class="progress-bar__text--dates">
+                                                        11 Jun 2015 - 11 Jun 2020
+                                                    </div>
+                                                </div>
+                                                <div class="progress-bar__bar">
+                                                    <div class="progress-bar__bar--value" style="width: 97%">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cert-table__button-container">
+                                                <button class="button-text"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</button>
+                                            </div>
+                                            <div class="cert-table__button-container">
+                                                <button class="button-text"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </section>
+
+                    </main>
+
+                </div>
+
+
+            </div>
+        </div> 
+    </body>
+</html>

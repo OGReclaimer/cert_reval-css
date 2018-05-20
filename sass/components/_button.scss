@@ -1,0 +1,17 @@
+.button-text {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: inherit;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    &__icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+}
