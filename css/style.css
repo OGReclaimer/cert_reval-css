@@ -119,9 +119,9 @@ h1, h2, h3, h4, h5, h6 {
   border-collapse: collapse;
   table-layout: fixed; }
   .seatime-table thead th:nth-child(1) {
-    width: 15%; }
+    width: 25%; }
   .seatime-table thead th:nth-child(2) {
-    width: 30%; }
+    width: 25%; }
   .seatime-table thead th:nth-child(3) {
     width: 10%; }
   .seatime-table thead th:nth-child(4) {
@@ -129,9 +129,9 @@ h1, h2, h3, h4, h5, h6 {
   .seatime-table thead th:nth-child(5) {
     width: 10%; }
   .seatime-table thead th:nth-child(6) {
-    width: 10%; }
+    width: 9%; }
   .seatime-table thead th:nth-child(7) {
-    width: 15%; }
+    width: 16%; }
   .seatime-table__header {
     height: 5rem;
     vertical-align: middle;
@@ -152,23 +152,39 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0.75rem; }
     .seatime-table td:first-child {
       padding-left: 1.5rem; }
-  .seatime-table__particulars-shape {
-    float: left;
-    position: relative;
-    width: 6rem;
-    height: 6rem;
-    -webkit-shape-outside: circle(50% at 50% 50%);
-    shape-outside: circle(50% at 50% 50%); }
-  .seatime-table__particulars-image {
-    height: 6rem;
-    width: 6rem;
-    border-radius: 50%; }
-  .seatime-table__particulars-text {
-    font-weight: 600; }
+  .seatime-table__particulars {
+    display: flex;
+    align-items: center; }
+    .seatime-table__particulars-shape {
+      width: 6rem;
+      height: 6rem;
+      -webkit-shape-outside: circle(50% at 50% 50%);
+      shape-outside: circle(50% at 50% 50%);
+      -webkit-clip-path: circle(50% at 50% 50%);
+      clip-path: circle(50% at 50% 50%);
+      margin-right: 1rem; }
+    .seatime-table__particulars-image {
+      height: 6rem;
+      width: 6rem;
+      border-radius: 50%; }
+      .seatime-table__particulars-image--add {
+        border-radius: 50%;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+        height: 6rem;
+        width: 6rem;
+        min-width: 0;
+        padding: 0;
+        font-size: 3rem;
+        font-weight: 100;
+        cursor: pointer; }
+    .seatime-table__particulars-text {
+      font-weight: 600; }
   .seatime-table__button-container {
     margin: 0 auto;
     display: inline-block;
     width: 49%; }
+  .seatime-table__add input {
+    width: 80%; }
 
 .progress-bar__text {
   display: flex;

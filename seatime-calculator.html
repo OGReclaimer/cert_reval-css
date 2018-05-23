@@ -135,19 +135,19 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr class="seatime">
+                                    <tr>
                                         <td>
                                             <div class="seatime-table__particulars">
                                                 <figure class="seatime-table__particulars-shape">
                                                     <img class="seatime-table__particulars-image" src="assets/img/Herb.jpg"/>
                                                 </figure>
                                                 <div class="seatime-table__particulars-text">
-                                                    <p>Seabourn Quest<br>Nassau, Bahamas<br>C6YZD</p>
+                                                    <p>Seabourn Quest<br>Nassau, Bahamas</p>
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><p>IMO: 123455678 <br> Offical No.: 121248578</p></td>
-                                        <td><p>GT: 32908t <br>LOA: 198.15m</p></td>
+                                        <td><p>IMO: 123455678</p></td>
+                                        <td><p>GT: 32908 <br>LOA: 198.15m</p></td>
                                         <td>26 Mar 2016</td>
                                         <td>2 Aug 2018</td>
                                         <td>2nd Officer</td>
@@ -158,26 +158,30 @@
                                         </td>
                                     </tr>
                                     <form>
-                                        <tr class="seatime">
+                                        <tr>
                                             <td>
                                                 <div class="seatime-table__particulars">
                                                     <figure class="seatime-table__particulars-shape">
-                                                        <img class="seatime-table__particulars-image" src="assets/img/Herb.jpg"/>
+                                                        <!-- CHANGE TO MATERIAL UI BUTTON -->
+                                                        <button class="seatime-table__particulars-image--add">+</button>
                                                     </figure>
-                                                    <div class="seatime-table__particulars-text">
-                                                        <p>Seabourn Quest<br>Nassau, Bahamas<br>C6YZD</p>
+                                                    <div class="seatime-table__particulars-text--add">
+                                                        <input type="text" placeholder="Ship Name" />
+                                                        <input type="text" placeholder="Port of Registry"/>
                                                     </div>
                                                 </div>
                                             </td>
-                                            <td><p>IMO: 123455678 <br> Offical No.: 121248578</p></td>
-                                            <td><p>GT: 32908t <br>LOA: 198.15m</p></td>
-                                            <td>26 Mar 2016</td>
-                                            <td>2 Aug 2018</td>
-                                            <td>2nd Officer</td>
+                                            <td class="seatime-table__add"><input type="text" placeholder="IMO Number"/></td>
+                                            <td class="seatime-table__add"><input type="text" placeholder="Gross Tonnage"/>
+                                                <br>
+                                                <input type="text" placeholder="Length"/>
+                                            </td>
+                                            <td class="seatime-table__add"><input type="date" placeholder="DD/MMM/YYYY"/></td>
+                                            <td class="seatime-table__add"><input type="date" placeholder="DD/MMM/YYYY"/></td>
+                                            <td class="seatime-table__add"><input type="text" placeholder="2nd Officer"/></td>
                                             <td>90 days</td>
                                             <td class="align-center">
-                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
-                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Add</div></button>
                                             </td>
                                         </tr>
                                     </form>
