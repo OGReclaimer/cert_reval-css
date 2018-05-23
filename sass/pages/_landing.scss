@@ -1,0 +1,18 @@
+.video-section {
+    height: 70vh;
+    background-color: var(--color-black);
+    position: relative;
+
+    &__content {
+        height: 100%;
+        z-index: 100;
+        position: relative;
+    }
+}
+
+.jumbotron-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

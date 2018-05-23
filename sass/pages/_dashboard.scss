@@ -11,9 +11,7 @@
         flex: 0 0 90%;
         margin: 8rem auto;
         background-color: var(--color-grey-light-1);
-        box-shadow: var(--shadow-dark);
-
-        min-height: 50rem;
+        box-shadow: var(--shadow-dark);        
     }
 
     &__view {
@@ -31,7 +29,28 @@
     align-items: center;
 }
 
-.certificate-table {
+.certificate-table-container {
     background-color: #fff;
     margin: 3rem;
+
+
+    &__header {
+        height: 5rem;
+        border: 1px solid rgba(0, 40, 100, 0.12);
+        padding: 0.75rem;
+        padding-left: 1.5rem;
+    }
+
+}
+
+.certificate-cards-container {
+
+    margin: 3rem;
+
+    &__secondary-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+   
 }

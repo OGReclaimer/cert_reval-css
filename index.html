@@ -47,7 +47,7 @@
                     <nav class="sidebar">
                         <ul class="side-nav"> 
                             <li class="side-nav__item">
-                                <a class="side-nav__link" href="#">
+                                <a class="side-nav__link" href="./index.html">
                                     <svg class="side-nav__icon">
                                         <use xlink:href="assets/img/sprite.svg#icon-archive"></use>
                                     </svg>
@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li class="side-nav__item">
-                                <a class="side-nav__link" href="#">
+                                <a class="side-nav__link" href="./seatime-calculator.html">
                                     <svg class="side-nav__icon">
                                         <use xlink:href="assets/img/sprite.svg#icon-classic-computer"></use>
                                     </svg>
@@ -117,7 +117,11 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="certificate-table">
+
+                        <section class="certificate-table-container">
+                            <div class="certificate-table-container__header">
+                                <h1 class="header-primary">Aux</h1>
+                            </div>
                             <table class="cert-table">
                                 <thead>
                                     <tr class="cert-table__header">
@@ -155,7 +159,10 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><button>Edit</button><button>Delete</button></td>
+                                        <td class="align-center">
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                        </td>
                                     </tr>
                                     <tr class="cert">
                                         <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
@@ -180,7 +187,10 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td><button>Edit</button><button>Delete</button></td>
+                                        <td class="align-center">
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                        </td>
                                     </tr>
                                     <tr class="cert">
                                         <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
@@ -205,17 +215,211 @@
                                                 </div>
                                             </div>
                                         </td>
-                                        <td>
-                                            <div class="cert-table__button-container">
-                                                <button class="button-text"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</button>
-                                            </div>
-                                            <div class="cert-table__button-container">
-                                                <button class="button-text"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</button>
-                                            </div>
+                                        <td class="align-center">
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
+                        </section>
+
+                        <section class="certificate-table-container">
+                                <div class="certificate-table-container__header">
+                                    <h1 class="header-primary">STCW</h1>
+                                </div>
+                                <table class="cert-table">
+                                    <thead>
+                                        <tr class="cert-table__header">
+                                            <th></th>
+                                            <th>No:</th>
+                                            <th>Name:</th>
+                                            <th>Issuer:</th>
+                                            <th>Issue Date</th>
+                                            <th>Expiry Date</th>
+                                            <th>Days to expiry</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="cert">
+                                            <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                            <td>020138</td>
+                                            <td>First Aid</td>
+                                            <td>Auckland Martime School</td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>
+                                                <div class="progress-bar">
+                                                    <div class="progress-bar__text">
+                                                        <div class="progress-bar__text--days">
+                                                            50 Days
+                                                        </div>
+                                                        <div class="progress-bar__text--dates">
+                                                            11 Jun 2015 - 11 Jun 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress-bar__bar">
+                                                        <div class="progress-bar__bar--value" style="width: 97%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="cert">
+                                            <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                            <td>020138</td>
+                                            <td>First Aid</td>
+                                            <td>Auckland Martime School</td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>
+                                                <div class="progress-bar">
+                                                    <div class="progress-bar__text">
+                                                        <div class="progress-bar__text--days">
+                                                            50 Days
+                                                        </div>
+                                                        <div class="progress-bar__text--dates">
+                                                            11 Jun 2015 - 11 Jun 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress-bar__bar">
+                                                        <div class="progress-bar__bar--value" style="width: 97%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="cert">
+                                            <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                            <td>020138</td>
+                                            <td>First Aid</td>
+                                            <td>Auckland Martime School</td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>
+                                                <div class="progress-bar">
+                                                    <div class="progress-bar__text">
+                                                        <div class="progress-bar__text--days">
+                                                            50 Days
+                                                        </div>
+                                                        <div class="progress-bar__text--dates">
+                                                            11 Jun 2015 - 11 Jun 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress-bar__bar">
+                                                        <div class="progress-bar__bar--value" style="width: 97%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="cert">
+                                            <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                            <td>020138</td>
+                                            <td>First Aid</td>
+                                            <td>Auckland Martime School</td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>
+                                                <div class="progress-bar">
+                                                    <div class="progress-bar__text">
+                                                        <div class="progress-bar__text--days">
+                                                            50 Days
+                                                        </div>
+                                                        <div class="progress-bar__text--dates">
+                                                            11 Jun 2015 - 11 Jun 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress-bar__bar">
+                                                        <div class="progress-bar__bar--value" style="width: 97%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="cert">
+                                            <td><img class="cert-table__image" src="assets/img/Herb.jpg"/></td>
+                                            <td>020138</td>
+                                            <td>First Aid</td>
+                                            <td>Auckland Martime School</td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>
+                                                <div class="progress-bar">
+                                                    <div class="progress-bar__text">
+                                                        <div class="progress-bar__text--days">
+                                                            50 Days
+                                                        </div>
+                                                        <div class="progress-bar__text--dates">
+                                                            11 Jun 2015 - 11 Jun 2020
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress-bar__bar">
+                                                        <div class="progress-bar__bar--value" style="width: 97%">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+
+                        <section class="certificate-cards-container">
+                            <ul class="cards">
+                                <li class="cards__item">
+                                    <div class="card">
+                                        <div class="card__header">
+                                            <h2 class="card-header"></h2>
+                                        </div>
+                                        <div class="card__content">
+
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li class="cards__item">
+                                    <div class="card">
+                                        You worked!
+                                    </div>
+                                </li>
+                                <li class="cards__item">
+                                    <div class="card">
+                                        You worked!
+                                    </div>
+                                </li>
+                                <li class="cards__item">
+                                    <div class="card">
+                                        You worked!
+                                    </div>
+                                </li>
+                                <li class="cards__item">
+                                    <div class="card">
+                                        You worked!
+                                    </div>
+                                </li>
+                            </ul>
                         </section>
 
                     </main>

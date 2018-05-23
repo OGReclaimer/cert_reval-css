@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Certify &mdash; Make Certificates Yo</title>
+    </head>
+    <body>
+        <!-- Dashboard - PAGE -->
+        <div class="dashboard">
+            <!-- Dashboard Component -->
+            <div class="dashboard__container">
+                <!-- Header Component -->
+                <header class="header">
+                    <img src="assets/img/logo.png" class="header__logo"/>
+                    
+                    <nav class="user-nav">
+                        <div class="user-nav__icon-box">
+                            <svg class="user-nav__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-bell"></use>
+                            </svg>
+                            <!-- ADD NOTIFICATION ABILITY -->
+                            <span class="user-nav__notification">13</span>
+                        </div>
+
+                        <!-- ADD FUNCTIONALITY TO GRAB USER DATA -->
+                        <div class="user-nav__user">
+                            <img src="assets/img/user.png" alt="User Display Photo" class="user-nav__user-photo">
+                            <span class="user-nav__user-name">Joe</span>
+                            <svg class="user-nav__icon-dropdown">
+                                <use xlink:href="assets/img/sprite.svg#icon-chevron-down"></use>
+                            </svg>
+                        </div>
+                    </nav>
+                    
+                </header>
+
+                <!-- Dashboard Content -->
+                <div class="content">
+                    <!-- Side Navigation -->
+                    <nav class="sidebar">
+                        <ul class="side-nav"> 
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="./index.html">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-archive"></use>
+                                    </svg>
+                                    <span>Certificates</span>
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="./seatime-calculator.html">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-classic-computer"></use>
+                                    </svg>
+                                    <span>Sea Time Calculator</span>
+                                </a>
+                            </li>
+                            <li class="side-nav__item">
+                                <a class="side-nav__link" href="#">
+                                    <svg class="side-nav__icon">
+                                        <use xlink:href="assets/img/sprite.svg#icon-hair-cross"></use>
+                                    </svg>
+                                    <span>Tracker</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Content of Dashboard - Components will go inside (table, widgets etc)  -->
+                    <main class="dashboard__view">
+                        <section class="widget-board">
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    56 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    To Next Expiry
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    130 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    Onboard Seabourn Quest
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    $3000
+                                </div>
+                                <div class="widget__sub-text">
+                                    For An Api?
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    56 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    To Next Expiry
+                                </div>
+                            </div>
+                            <div class="widget">
+                                <div class="widget__main-text">
+                                    130 Days
+                                </div>
+                                <div class="widget__sub-text">
+                                    Onboard Seabourn Quest
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="seatime-table-container">
+                            <div class="seatime-table-container__header">
+                                <h1 class="header-primary">Sea Time Summary</h1>
+                            </div>
+                            <table class="seatime-table">
+                                <thead>
+                                    <tr class="seatime-table__header">
+                                        <th colspan="1">Ship Particulars</th>
+                                        <th colspan="2"></th>
+                                        <th>Joining Date</th>
+                                        <th>Leaving Date</th>
+                                        <th>Capacity/Rank</th>
+                                        <th>Sea Days</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="seatime">
+                                        <td>
+                                            <div class="seatime-table__particulars">
+                                                <figure class="seatime-table__particulars-shape">
+                                                    <img class="seatime-table__particulars-image" src="assets/img/Herb.jpg"/>
+                                                </figure>
+                                                <div class="seatime-table__particulars-text">
+                                                    <p>Seabourn Quest<br>Nassau, Bahamas<br>C6YZD</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td><p>IMO: 123455678 <br> Offical No.: 121248578</p></td>
+                                        <td><p>GT: 32908t <br>LOA: 198.15m</p></td>
+                                        <td>26 Mar 2016</td>
+                                        <td>2 Aug 2018</td>
+                                        <td>2nd Officer</td>
+                                        <td>90 days</td>
+                                        <td class="align-center">
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                            <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                        </td>
+                                    </tr>
+                                    <form>
+                                        <tr class="seatime">
+                                            <td>
+                                                <div class="seatime-table__particulars">
+                                                    <figure class="seatime-table__particulars-shape">
+                                                        <img class="seatime-table__particulars-image" src="assets/img/Herb.jpg"/>
+                                                    </figure>
+                                                    <div class="seatime-table__particulars-text">
+                                                        <p>Seabourn Quest<br>Nassau, Bahamas<br>C6YZD</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><p>IMO: 123455678 <br> Offical No.: 121248578</p></td>
+                                            <td><p>GT: 32908t <br>LOA: 198.15m</p></td>
+                                            <td>26 Mar 2016</td>
+                                            <td>2 Aug 2018</td>
+                                            <td>2nd Officer</td>
+                                            <td>90 days</td>
+                                            <td class="align-center">
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-new-message"></use></svg>Edit</div></button>
+                                                <button class="button-text"><div class="button-text__content"><svg class="button-text__icon"><use xlink:href="assets/img/sprite.svg#icon-trash"></use></svg>Delete</div></button>
+                                            </td>
+                                        </tr>
+                                    </form>
+                                </tbody>
+                            </table>
+                        </section>
+                    </main>
+
+                </div>
+
+
+            </div>
+        </div> 
+    </body>
+</html>

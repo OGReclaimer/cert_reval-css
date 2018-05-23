@@ -7,11 +7,16 @@
 @import "base/utilities";
 
 @import "components/cert-table";
+@import "components/seatime-table";
 @import "components/progress-bar";
 @import "components/side-nav";
 @import "components/user-nav";
 @import "components/widget";
 @import "components/button";
+@import "components/card";
+@import "components/background-video";
+@import "components/link";
+@import "components/jumbotron";
 
 
 @import "layout/header";
@@ -19,3 +24,5 @@
 @import "layout/content";
 
 @import "pages/dashboard";
+@import "pages/seatime-calculator";
+@import "pages/landing";

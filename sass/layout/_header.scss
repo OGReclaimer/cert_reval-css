@@ -11,6 +11,29 @@
         margin-left: 2.5rem;
         height: 5rem;
         width: auto;
+        margin-right: auto;
+    }
+
+    &--landing {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10rem;
+        width: 100%;
+        z-index: 10;
+       
+        display: flex;
+        align-items: center;
+    }
+
+    &--links-box {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        height: 100%;
+        margin-right: 2rem;
     }
 
 }
+
